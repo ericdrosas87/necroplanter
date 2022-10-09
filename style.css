@@ -1,0 +1,32 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+}
+
+
+#scene-container {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    z-index: -1;
+    position: absolute;
+    top: 0vh;
+}
+
+#scene {
+    background-color: yellow;
+    overflow: scroll;
+    position: absolute;
+}
+
+#dash {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 30vw;
+    background-color: brown;
+    border-right: 2px solid black;
+    z-index: 1;
+}
